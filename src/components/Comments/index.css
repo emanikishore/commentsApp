@@ -1,0 +1,60 @@
+/* Write your CSS here */
+
+.container {
+  display: flex;
+  padding: 30px;
+  justify-content: space-evenly;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.title {
+  color: #1e293b;
+  font-size: 40px;
+}
+.comment {
+  width: 100%;
+  border-radius: 5px;
+}
+.description {
+  color: #334155;
+  font-size: 14px;
+}
+.name {
+  padding: 8px;
+  width: 100%;
+  border-radius: 5px;
+}
+.btn {
+  background-color: #0284c7;
+  color: #dee0e3;
+  padding: 8px;
+  width: 50%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.line {
+  width: 70%;
+}
+.below-container {
+  padding-left: 250px;
+}
+.number {
+  background-color: #0284c7;
+  color: #dee0e3;
+  padding: 0px 5px;
+  border-radius: 2px;
+  text-align: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
